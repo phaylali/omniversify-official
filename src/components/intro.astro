@@ -1,30 +1,33 @@
 ---
 import { Icon } from "astro-icon/components";
 import ContentSection from "~/components/content-section.astro";
+import Fav from "~/components/omniversify.astro"
 ---
 
-<ContentSection title="Just ship less" id="intro">
-  <Icon slot="eyebrow" name="logomark" class="size-32" />
+<ContentSection title="Project In Focus" id="intro">
+  <Fav></Fav>
+  <!--Icon slot="eyebrow" name="fav" class="size-32" /-->
   <Fragment slot="lead">
-    Astro is a new kind of site builder for the
-    <span class="text-primary">modern</span> web.
-    <span class="text-primary">Lightning-fast</span>
-    performance meets <span class="text-primary">powerful</span> developer experience.
+    Omniversify is now focusing on a
+    <span class="text-primary">Game</span> called
+    <span class="text-primary">Deserted Tales: Aicha Kandicha</span>.
+    a game about a historical figure that turned into a <span class="text-primary">Folklore Myth</span> lived during the 16th century in Morocco.
   </Fragment>
   <div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
     <a
-      href="https://docs.astro.build/"
+      href="https://tales.omniversify.com/"
       class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
     >
       <Icon name="mdi:telescope" class="size-8" />
       <span>Read the docs</span>
     </a>
     <a
-      href="https://astro.new/"
+      href="#"
       class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
     >
-      <Icon name="mdi:rocket" class="size-8" />
-      <span>Try it out</span>
+      <Icon name="mdi:telescope" class="size-8 " />
+      <span>Coming Soon</span>
     </a>
+    
   </div>
 </ContentSection>

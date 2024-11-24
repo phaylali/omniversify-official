@@ -1,0 +1,65 @@
+---
+import { Icon } from "astro-icon/components";
+import ContentSection from "~/components/content-section.astro";
+import type { FeatureItem } from "~/types";
+
+const goals: Array<FeatureItem> = [
+  {
+    title: "Collaboration",
+    description:
+      "Omniversify aims to be a place of meeting, a hub for ambitious and talented individuals to meet, work with each other and expand their network.",
+    icon: "mdi:handshake",
+  },
+  {
+    title: "Ease-of-Use & Speed",
+    description:
+      "Omniversify's goals with it's products and services, is tightly tied to its being fast and easy to use for almost everyone.",
+    icon: "mdi:feather",
+  },
+  {
+    title: "Forever Expanding",
+    description:
+      "Omniversify isn't a timely project that will end one day after serving its purpose, as long as there are niches, forgotten small problem and underrepresented culures, stories and histories. Omniversify will live.",
+    icon: "mdi:directions-fork",
+  },
+  {
+    title: "Broad Integration",
+    description:
+      "Omniversify welcomes passionate people from every field, as the projects made by Omniversify are not limited to a certain domain.",
+    icon: "mdi:graph",
+  },
+  {
+    title: "Talent Search",
+    description:
+      "Omniversify is actively seeking passionate individuals eager to make a meaningful impact by volunteering for the greater good.",
+    icon: "mdi:search-web",
+  },
+  {
+    title: "Community",
+    description:
+      "Omniversify welcomes suggestions and contributions, ensuring every effort and act of support is appreciated and remembered. Join our Discord",
+    icon: "mdi:account-group",
+  },
+];
+---
+
+<ContentSection title="Goals" id="goals">
+  <Fragment slot="lead">
+    Omniversify is a <span class="text-primary">Journey</span>.{" "} That aims to fill the blanks of the
+    <span class="text-primary">Present</span> and gaps of the
+    <span class="text-primary">Past</span> {" "}, using <span class="text-primary">Futuristic</span> solutions.
+  </Fragment>
+  <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    {
+      goals.map(({ title, description, icon }) => (
+        <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+          <div class="size-16 rounded-full border-2 border-current p-3">
+            <Icon name={icon} class="size-full" />
+          </div>
+          <p class="text-center font-extrabold text-xl">{title}</p>
+          <p class="text-center text-offset text-sm">{description}</p>
+        </li>
+      ))
+    }
+  </ul>
+</ContentSection>
