@@ -28,7 +28,7 @@ Welcome to the future of digital experiences! Omniversify is breaking boundaries
 - 📦 Modern content management system
 - 🧩 Component-based architecture
 
-## 🌈 Connect With Us
+## 🌐 Connect With Us
 
 - 🏠 [Official Website](https://omniversify.com/)
 - 🛠️ [GitHub Repository](https://github.com/phaylali/omniversify-official)
