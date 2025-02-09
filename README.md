@@ -1,5 +1,7 @@
 # 🌌 Omniversify Official Website
 
+[العربية](README.ar.md) | [ⵜⵉⴼⵉⵏⴰⵖ](README.tif.md)
+
 ## 🚀 Vision
 Welcome to the future of digital experiences! Omniversify is breaking boundaries and creating bridges across multiple platforms and universes. We're not just building connections - we're crafting the next evolution of digital interaction.
 
@@ -54,6 +56,8 @@ Ready to shape the future of digital experiences? Join us in building something 
 
 #Omniversify #DigitalFuture #Metaverse
 
+---
 
+Built with 💖 by Omniversify
 
 [![ReadMeSupportPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-project.svg)](https://donate.unrwa.org/-landing-page/en_EN)
