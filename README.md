@@ -54,6 +54,7 @@ Ready to shape the future of digital experiences? Join us in building something 
 
 #Omniversify #DigitalFuture #Metaverse
 
-
+---
+Built with 💖 by Omniversify
 
 [![ReadMeSupportPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-project.svg)](https://donate.unrwa.org/-landing-page/en_EN)
